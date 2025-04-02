@@ -179,3 +179,19 @@ footer {
   font-size: 0.9rem;
   color: #000000;
 }
+
+/* Style for the row to align items horizontally */
+.row {
+  text-align: center; /* Center the text inside the row */
+}
+
+.col {
+  display: inline-block; /* Make columns sit next to each other */
+  width: 30%; /* Set each column to take up 30% of the row */
+  vertical-align: top; /* Align columns to the top */
+  margin: 1%; /* Add some spacing between columns */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 10px; /* Add padding inside the columns */
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+  background-color: #f9f9f9; /* Optional: Add a light background color */
+}
