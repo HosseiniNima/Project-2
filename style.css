@@ -93,7 +93,7 @@ header p {
 
 .timeline-card h3 {
   font-family: 'Poppins', Arial, sans-serif; /* Use Poppins for headings */
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #000000;
   text-align: center; /* Center the text horizontally */
   margin: 10px 0; /* Add some spacing around the subheading */
@@ -204,4 +204,21 @@ footer {
   padding: 20px; /* Add padding inside the container */
   max-width: 1200px; /* Restrict the container width */
   box-sizing: border-box; /* Include padding in the element's dimensions */
+}
+
+/* Bottom Section Styling */
+.col h2 {
+  font-size: 1.5rem; /* Match heading size with other sections */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+.col p {
+  font-size: 0.8rem; /* Match paragraph font size with the rest of the page */
+  line-height: 1.4; /* Improve readability */
+  margin-bottom: 15px; /* Add spacing below the paragraph */
+}
+
+.col a {
+  font-size: 0.9rem; /* Ensure button text is consistent */
+  padding: 8px 12px; /* Adjust padding for better proportions */
 }
