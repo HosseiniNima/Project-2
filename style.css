@@ -187,16 +187,15 @@ footer {
   gap: 20px; /* Add spacing between columns */
 }
 
+/* Remove custom styles for the bottom section columns */
 .col {
-  display: inline-block; /* Keep columns inline */
-  width: 30%; /* Set each column to take up 30% of the row */
-  vertical-align: top; /* Align columns to the top */
-  margin: 1%; /* Add spacing between columns */
-  box-sizing: border-box; /* Include padding and border in the width */
-  padding: 10px; /* Add padding inside the columns */
+  padding: 10px; /* Keep padding inside the columns */
   border: 1px solid #ddd; /* Optional: Add a border for better visibility */
   background-color: #f9f9f9; /* Optional: Add a light background color */
-  min-height: 300px; /* Set a minimum height for all columns */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+  text-align: center; /* Center-align content */
+  min-height: 250px; /* Keep minimum height */
 }
 
 /* Add spacing around the grid container */
