@@ -19,8 +19,8 @@ header img {
 
 header h1 {
   font-family: 'Poppins', Arial, sans-serif; /* Use Poppins for headings */
-  font-size: 3rem;
-  margin: 10px 0;
+  font-size: 2.5rem;
+  margin: 20px 0;
   color: #fff; /* Set the main heading text color to white */
 }
 
@@ -190,11 +190,37 @@ header p {
 
 /* Footer Styling */
 footer {
-  text-align: center;
-  background: linear-gradient(to bottom right, #00d7fd, #004080); 
-  padding: 10px;
+  display: flex; /* Use flexbox to align items in a row */
+  justify-content: center; /* Center the text */
+  align-items: center; /* Vertically align items */
+  position: relative; /* Allow positioning of the navigation bar */
+  background: linear-gradient(to bottom right, #00d7fd, #004080);
+  padding: 15px;
   font-size: 0.9rem;
   color: #ffffff; /* Light text color for contrast */
+}
+
+.footer-nav {
+  position: absolute; /* Position the navigation bar */
+  right: 15px; /* Align it to the right side */
+}
+
+.footer-nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: inline-flex; /* Display items inline */
+  gap: 15px; /* Add spacing between links */
+}
+
+.footer-nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Match footer text color */
+  font-size: 0.9rem; /* Match font size with footer text */
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
 
 /* Style for the row to align items horizontally */
