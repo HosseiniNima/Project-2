@@ -206,11 +206,8 @@ footer {
 /* Remove custom styles for the bottom section columns */
 .col {
   padding: 10px; /* Keep padding inside the columns */
-  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
-  background-color: #f9f9f9; /* Optional: Add a light background color */
   border-radius: 5px; /* Add rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
-  text-align: center; /* Center-align content */
+  text-align: left; /* Align text to the left */
   min-height: 250px; /* Keep minimum height */
 }
 
