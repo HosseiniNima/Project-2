@@ -32,6 +32,22 @@ header p {
   max-width: 400px; /* Restrict the width to approximately 8 words per line */
 }
 
+/* Align the icon and header text on the same line */
+.header-with-icon {
+  display: inline-flex; /* Use inline-flex to align items horizontally */
+  align-items: center; /* Vertically align items to the center */
+  gap: 10px; /* Add spacing between the icon and the text */
+  line-height: 1.5; /* Ensure enough line height for the icon */
+}
+
+/* Adjust the size of the SVG to match the text height */
+.header-with-icon svg {
+  width: 1.3em; /* Set the width relative to the font size */
+  height: 1.3em; /* Set the height relative to the font size */
+  fill: currentColor; /* Match the color of the text */
+  vertical-align: middle; /* Align the SVG with the text baseline */
+}
+
 /* Timeline Section */
 .timeline {
   padding: 20px;
@@ -124,9 +140,9 @@ header p {
 
 .timeline p {
   text-align: center; /* Center the text horizontally */
-  margin-top: 10px; /* Add some spacing above the text */
-  font-size: 1rem; /* Ensure the text is readable */
-  color: #555; /* Use a subtle color for the text */
+  line-height: 1.4; /* Improve readability */
+  font-size: 0.9rem; /* Ensure the text is readable */
+  color: #ffffff; /* Use a subtle color for the text */
 }
 
 /* For WebKit browsers (Chrome, Edge, Safari) */
