@@ -188,14 +188,15 @@ footer {
 }
 
 .col {
-  flex: 1; /* Ensure all columns take up equal width */
-  display: flex; /* Use flexbox for content alignment */
-  flex-direction: column; /* Stack content vertically */
-  justify-content: space-between; /* Distribute content evenly */
-  align-items: center; /* Center content horizontally */
-  padding: 20px; /* Add more padding for better spacing */
-  height: 100%; /* Ensure columns stretch to equal height */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  display: inline-block; /* Keep columns inline */
+  width: 30%; /* Set each column to take up 30% of the row */
+  vertical-align: top; /* Align columns to the top */
+  margin: 1%; /* Add spacing between columns */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 10px; /* Add padding inside the columns */
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+  background-color: #f9f9f9; /* Optional: Add a light background color */
+  min-height: 300px; /* Set a minimum height for all columns */
 }
 
 /* Add spacing around the grid container */
