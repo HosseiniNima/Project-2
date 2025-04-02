@@ -191,10 +191,10 @@ header p {
 /* Footer Styling */
 footer {
   text-align: center;
-  background-color: #f4f4f4;
+  background: linear-gradient(to bottom right, #00d7fd, #004080); 
   padding: 10px;
   font-size: 0.9rem;
-  color: #000000;
+  color: #ffffff; /* Light text color for contrast */
 }
 
 /* Style for the row to align items horizontally */
@@ -235,4 +235,13 @@ footer {
 .col a {
   font-size: 0.9rem; /* Ensure button text is consistent */
   padding: 8px 12px; /* Adjust padding for better proportions */
+}
+
+/* Subscription Form Section */
+section {
+  text-align: center; /* Center-align the text */
+  padding: 20px; /* Add padding for spacing */
+  margin: 20px auto; /* Center the section and add vertical spacing */
+  background-color: #f4f4f4; /* Light background color */
+  color: #000000; /* Dark text color for contrast */
 }
