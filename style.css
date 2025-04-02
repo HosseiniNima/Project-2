@@ -66,6 +66,7 @@ header p {
   max-width: 70%; /* Restrict the container to 70% of the page width */
   overflow-x: auto; /* Allow horizontal scrolling */
   margin: 0 auto; /* Center the container horizontally */
+  margin-bottom: -40px; /* Add spacing below the timeline */
   align-items: center; /* Align items to prevent vertical overflow */
   height: 100%; /* Ensure the container does not exceed its content height */
 }
@@ -213,7 +214,7 @@ footer {
 
 /* Add spacing around the grid container */
 .container {
-  margin: 40px auto; /* Add vertical spacing and center horizontally */
+  margin: 10px auto; /* Add vertical spacing and center horizontally */
   padding: 20px; /* Add padding inside the container */
   max-width: 1200px; /* Restrict the container width */
   box-sizing: border-box; /* Include padding in the element's dimensions */
